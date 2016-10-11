@@ -113,11 +113,4 @@ public class MailUtils {
         }
     }
 
-//    public static void main(String[] args) {
-//        MailUtils cn = new MailUtils("smtp.163.com", "jiangwei1995910@163.com", "jw78667602");
-//        // 设置发件人地址、收件人地址和邮件标题
-//        cn.setAddress("jiangwei1995910@163.com", "631106246@qq.com");
-//        cn.send("邮件标题","这是邮件内容！！！！！！！！！！！");
-//
-//    }
 }

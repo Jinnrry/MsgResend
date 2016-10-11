@@ -125,7 +125,7 @@ public class MyService extends Service {
                         @Override
                         public void run() {
                             super.run();
-                            MailUtils mail=new MailUtils("smtp.163.com", "jiangwei1995910@163.com", "jw78667602");
+                            MailUtils mail=new MailUtils("smtp.163.com", "jiangwei1995910@163.com", "*********");//163邮箱请使用授权码！不能直接使用密码登陆
                             mail.setAddress("jiangwei1995910@163.com", to);
                             mail.send("您的手机收到了一条新短信",check);
                         }
